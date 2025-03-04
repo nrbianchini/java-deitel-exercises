@@ -22,16 +22,16 @@ public class ComputerAssistedInstruction_StudentFatigue {
                 int generatedComment = randomNumber.nextInt(4) + 1;
                 switch (generatedComment){
                     case 1:
-                        System.out.println("Não. Por favor, tente de novo.");
+                        System.out.println("No. Please, try again.");
                         break;
                     case 2:
-                        System.out.println("Errado. Tente mais uma vez.");
+                        System.out.println("Wrong. Try one more time.");
                         break;
                     case 3:
-                        System.out.println("Não desista!");
+                        System.out.println("Don't give up!");
                         break;
                     case 4:
-                        System.out.println("Não. Continue tentando.");
+                        System.out.println("No. Keep trying.");
                         break;
                 }
                 answer = input.nextInt();
@@ -42,21 +42,21 @@ public class ComputerAssistedInstruction_StudentFatigue {
             int generatedComment = randomNumber.nextInt(4) + 1;
             switch (generatedComment) {
                 case 1:
-                    System.out.println("Muito bom!");
+                    System.out.println("Very good!\n");
                     break;
                 case 2:
-                    System.out.println("Excelente!");
+                    System.out.println("Excellent!\n");
                     break;
                 case 3:
-                    System.out.println("Bom trabalho!");
+                    System.out.println("Good job!\n");
                     break;
                 case 4:
-                    System.out.println("Mantenha um bom trabalho!");
+                    System.out.println("Keep up the good work!\n");
                     break;
             }
         }
     }
     public static void generateQuestions(int generatedNumber1, int generatedNumber2) {
-        System.out.print("Quanto é " + generatedNumber1 + " vezes " + generatedNumber2 + "? ");
+        System.out.print("How much is " + generatedNumber1 + " times " + generatedNumber2 + "? ");
     }
 }

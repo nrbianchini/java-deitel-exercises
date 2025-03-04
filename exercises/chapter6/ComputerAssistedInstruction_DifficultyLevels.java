@@ -8,9 +8,7 @@ public class ComputerAssistedInstruction_DifficultyLevels {
     public static int studentChoice(Scanner input) {
         System.out.printf("Enter the difficulty level of your choice:%n" +
                 "(1) - One digit numbers%n(2) - Two digits number%n(3) - Three digits number%n ");
-        int choice = input.nextInt();
-
-        return choice;
+        return input.nextInt();
     }
 
     public static int[] randomDigits(int choice) {
@@ -36,7 +34,7 @@ public class ComputerAssistedInstruction_DifficultyLevels {
     }
 
     public static void generateQuestions(int number1, int number2) {
-        System.out.printf("Quanto é %d vezes %d? ", number1, number2);
+        System.out.printf("How much is %d times %d? ", number1, number2);
     }
 
     public static void main(String[] args) {
@@ -60,16 +58,16 @@ public class ComputerAssistedInstruction_DifficultyLevels {
                 int generatedComment = randomNumber.nextInt(4) + 1;
                 switch (generatedComment){
                     case 1:
-                        System.out.println("Não. Por favor, tente de novo.");
+                        System.out.println("No. Please, try again.");
                         break;
                     case 2:
-                        System.out.println("Errado. Tente mais uma vez.");
+                        System.out.println("Wrong. Try one more time.");
                         break;
                     case 3:
-                        System.out.println("Não desista!");
+                        System.out.println("Don't give up!");
                         break;
                     case 4:
-                        System.out.println("Não. Continue tentando.");
+                        System.out.println("No. Keep trying.");
                         break;
                 }
                 answer = input.nextInt();
@@ -80,16 +78,16 @@ public class ComputerAssistedInstruction_DifficultyLevels {
             int generatedComment = randomNumber.nextInt(4) + 1;
             switch (generatedComment) {
                 case 1:
-                    System.out.println("Muito bom!\n");
+                    System.out.println("Very good!\n");
                     break;
                 case 2:
-                    System.out.println("Excelente!\n");
+                    System.out.println("Excellent!\n");
                     break;
                 case 3:
-                    System.out.println("Bom trabalho!\n");
+                    System.out.println("Good job!\n");
                     break;
                 case 4:
-                    System.out.println("Mantenha um bom trabalho!\n");
+                    System.out.println("Keep up the good work!\n");
                     break;
             }
         }

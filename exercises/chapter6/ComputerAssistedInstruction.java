@@ -16,13 +16,13 @@ public class ComputerAssistedInstruction {
             int answer = input.nextInt();
 
             while (answer != multiply) {
-                System.out.println("Não. Por favor, tente de novo.");
+                System.out.println("No. Please, try again.");
                 answer = input.nextInt();
             }
-                System.out.println("Muito bom!");
+                System.out.println("Very good!");
           }
 
     public static void generateQuestions(int generatedNumber1, int generatedNumber2) {
-        System.out.print("Quanto é " + generatedNumber1 + " vezes " + generatedNumber2 + "? ");
+        System.out.print("How much is " + generatedNumber1 + " times " + generatedNumber2 + "? ");
     }
 }

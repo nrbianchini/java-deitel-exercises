@@ -17,24 +17,12 @@ public class RollDice {
             int face = 1 + randomNumbers.nextInt(6);
 
             switch (face){
-                case 1:
-                    frequency1++;
-                    break;
-                case 2:
-                    frequency2++;
-                    break;
-                case 3:
-                    frequency3++;
-                    break;
-                case 4:
-                    frequency4++;
-                    break;
-                case 5:
-                    frequency5++;
-                    break;
-                case 6:
-                    frequency6++;
-                    break;
+                case 1 -> frequency1++;
+                case 2 -> frequency2++;
+                case 3 -> frequency3++;
+                case 4 -> frequency4++;
+                case 5 -> frequency5++;
+                case 6 -> frequency6++;
             }
         }
         System.out.println("Face\tFrequency");
