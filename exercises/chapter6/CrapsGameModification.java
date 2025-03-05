@@ -58,7 +58,7 @@ public class CrapsGameModification {
 
     // joga uma partida de craps
     public static void main(String[] args) {
-        int myPoint = 0; // pontos se não ganhar ou perder na 1ª rolagem
+        int myPoint = 0; // pontos se não ganhar ou perder na 1.ª rolagem
         Status gameStatus; // pode conter CONTINUE, WON, LOST
 
         int sumOfDice = rollDice(); // primeira rolagem dos dados

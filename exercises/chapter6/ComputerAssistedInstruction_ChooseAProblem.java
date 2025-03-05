@@ -3,7 +3,7 @@ package exercises.chapter6;
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-public class ComputerAssistedInstruction_ChooseProblem {
+public class ComputerAssistedInstruction_ChooseAProblem {
 
     public static int studentChoice(Scanner input) {
         System.out.printf("Enter the arithmetic problem of your choice:%n" +
