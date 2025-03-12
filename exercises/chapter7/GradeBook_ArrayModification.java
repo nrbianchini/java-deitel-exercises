@@ -21,7 +21,7 @@ public class GradeBook_ArrayModification {
         outputGrades();
 
         System.out.printf("%n%s %d%n%s %d%n%n",
-                "Lowest grade in the grade boook is", getMinimum(),
+                "Lowest grade in the grade book is", getMinimum(),
                 "Highest grade in the grade book is", getMaximum());
 
         outputBarChart();
